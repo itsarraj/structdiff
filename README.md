@@ -7,6 +7,12 @@ Python has `jsondiff`, Node has `json-diff`; Rust's `jaq`/`jq`-style
 tools are excellent at *querying* JSON but none of them diff two
 documents semantically out of the box.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
